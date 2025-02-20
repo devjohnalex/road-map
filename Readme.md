@@ -9,3 +9,5 @@ en el roadmap.html encontraras el codigo de una web static con etiquetas semanti
 ## Repositorio
 
 https://github.com/devjohnalex/road-map
+ ejercicio practico de roadmap juniors 
+ https://roadmap.sh/projects/single-page-cv
