@@ -4,7 +4,7 @@ en el roadmap.html encontraras el codigo de una web static con etiquetas semanti
 
 ## URL del Proyecto
 
-[Visitar el Proyecto] [https://github.com/devjohnalex/road-map/edit/master/Readme.md](https://github.com/devjohnalex/road-map))
+[Visitar el Proyecto] https://devjohnalex.github.io/road-map/
 
 ## Repositorio
 
