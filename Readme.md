@@ -9,5 +9,9 @@ en el roadmap.html encontraras el codigo de una web static con etiquetas semanti
 ## Repositorio
 
 https://github.com/devjohnalex/road-map
- ejercicio practico de roadmap juniors 
+
+ ejercicio practico de roadmap juniors  portfolio basic
  https://roadmap.sh/projects/single-page-cv
+
+ ejercicio practico road map 2 basic web tise
+https://github.com/devjohnalex/road-map/tree/master/sv%20basic-2
