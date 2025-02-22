@@ -14,4 +14,5 @@ https://github.com/devjohnalex/road-map
  https://roadmap.sh/projects/single-page-cv
 
  ejercicio practico road map 2 basic web tise
-https://github.com/devjohnalex/road-map/tree/master/sv%20basic-2
+https://roadmap.sh/projects/basic-html-website
+
