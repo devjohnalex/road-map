@@ -1,0 +1,268 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@media (max-width:600px) {
+    .footer-container{flex-direction: column;}
+     
+    .projects{background: rgba(220, 220, 220, 0.712);}
+    main section{background: rgba(220, 220, 220, 0.712);}
+
+    .main-projects ul{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+}
+
+
+/* stylos globales como header y footer*/
+
+.cabecero {
+    background: #0D0D0D;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);    
+    z-index: 1000;/*esta propiedad hace que no se superpongan los elemento en otros elementos*/
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-shadow: 3px 3px 5px rgba(34, 105, 107, 0.8);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.cabecero ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.cabecero ul li a {
+    color: white;
+    padding: 10px 15px;
+    background: rgba(19, 39, 67, 0.4);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;    
+    transition: all 0.3s ease-in-out;
+}
+
+.cabecero ul li a:hover {
+    background: #2b5083a8;
+    box-shadow: 0px 0px 15px rgba(146, 173, 212, 0.856);    
+    color: white;
+    border: 1px solid white;
+}
+
+.titulo {        
+    font-family:  sans-serif;
+    font-size: 25px;    
+    text-align: center;       
+    padding: 20px 10px;
+    text-shadow: 3px 3px 5px rgba(34, 105, 107, 0.8);
+    background: #0D0D0D;
+    color: white;
+    margin-top: 90px;   
+    width: 100%;   
+}
+
+footer {   
+    
+    background-color: rgba(25, 103, 105, 0.5);
+    text-align: center;
+    padding-top: 20px;    
+    bottom: 0px;      
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3); 
+    width: 100%;  
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+    flex-wrap: wrap;  
+    margin: 30px;      
+    gap: 20px;      
+               
+    
+}
+
+.section-footer:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 25px rgba(59, 165, 124, 0.6);
+}
+
+.copy{
+    background: rgba(25, 102, 105, 0.384);
+   
+}
+.copy a {
+    color: rgb(216, 126, 8);
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.copy a:hover {
+    color: #2b5083;    
+    transition: all 0.3se ease;
+    text-shadow: 3px 2px 5px rgb(0, 195, 255);
+}
+
+/* stilos de main pagina principal*/
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;    
+    margin: 80px;
+    gap: 20px;
+}
+
+main h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+aside, section {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;    
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    flex: 1;   
+}
+
+article{
+    padding: 20px;
+}
+
+main p{
+    margin: 10px;
+    text-align: justify;
+}
+
+main a{
+    color: rgb(216, 126, 8);
+    font-weight: bold;
+    text-decoration: none;       
+}
+
+main a:hover{
+    color: #2b5083;    
+    transition: all 0.3se ease;
+    
+}
+
+aside ul li{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+}
+
+aside a{
+    background: rgba(19, 39, 67, 0.4);       
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;   
+
+}
+
+aside a:hover{
+    cursor:pointer ;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 8px 25px #0D0D0D;
+}
+
+/*stilos main pagina de articles*/
+main .titulo-art{
+    text-align: center;
+    font-size: 45px;
+    width: 100%;    
+    
+}
+    
+.main-art ul{
+    /* estas propiedades nos permiten convertir los elementos de linea en bloque*/
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.main-art ul li {
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;    
+    background:linear-gradient(25deg, gray, white);
+    border-radius:10px;
+    
+    
+}
+
+.main-art p {
+    color: black;
+}
+
+.jpg{
+    width: 200px;   
+}
+
+.main-art li:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-5deg) scale(1.1) translateY(50px);    
+}
+
+/* stilos para la pagina de projects*/
+
+.main-projects ul li{
+    list-style: none; 
+
+}
+
+.main-projects ul{
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+.figure{
+    
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 15px #585858;   
+}
+
+.main-projects ul :hover{
+    
+    border-radius: 100%;
+    transform: scale(1.1);    
+    filter:sepia(0.5);
+       
+}

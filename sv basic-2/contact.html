@@ -9,103 +9,88 @@
     <meta name="author" content="dev.Jahm" />
     <title>Roadmap Front-end junior</title>
     <link rel="shortcut icon" href="/img/User_icon-icons.com_76524.png" type="image/x-icon"/>
-    
+    <link rel="stylesheet" href="/login.css">
+
   </head>
 
   <body>
 
     <header>
 
-      <nav>
-        <div><img src="/img/dev_stylus_icon_160851.svg"  alt="logo" width="70px"> </div> <h2>Dev.Jahm</h2>
+      <nav class="cabecero">
+
+        <div class="logo"><img src="/img/logo.png" alt="logo" width="70px">
+          <h2>Dev.Jahm</h2>
+        </div>
+        
+        
         <ul>
-          <li>home</li>
-          <li>Projects</li>
-          <li>Articles</li>
-          <li>Contact</li>
+          <li><a href="roadmap2.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-
-      </nav>
-      
-      
-
-      <h1>Front-end Developer</h1>
-      <p>Html y css con solo propiedades adecuadas</p>
+      </nav>      
     </header>
 
+    <main class="container">     
 
-    <main>
+      <section class="contactame">  
 
-      <section></section>
-
-      <section>
-        <form action="" method="post">
-
-          <fieldset>
-              <legend>Contactame</legend>
-      
-              <label for="nombre">Nombre:</label>
-              <input type="text" name="nombre" id="nombre" placeholder="Ingrese aquí su nombre" required> <br>
-      
-              <label for="apellidos">Apellido:</label>
-              <input type="text" name="apellido" id="apellidos" placeholder="Ingrese aquí su apellido" required> <br>
-
-      
-              <label for="telefono">Teléfono:</label>
-              <input type="tel" name="telefono" id="telefono" placeholder="Ingrese número de contacto" pattern="[0-9]{10}" maxlength="10" required> <br>
-      
-              <label for="email">Email:</label>
-              <input type="email" name="email" id="email" placeholder="Ingrese aquí su email" required> <br>
-      
-              <label for="comentarios">Comentarios:</label> <br>
-              <textarea name="comentarios" id="comentarios" cols="40" rows="10" placeholder="Ingresa aquí tu petición" maxlength="500"></textarea> <br>
-      
-              <br><br>
-
-              <input type="reset" value="Resetear">
-              <input type="submit" value="Enviar">
-
-          </fieldset>
-      </form>
-      
+        <div class="tittle"><h1>Front-end Developer Jr.</h1>
+          <p>Dev.Jahm Iniciante en el mundo de la programacion</p>
+        </div>
+        
+        <div class="tittle">
+          <h2>Contactame </h2>
+          <p>registra tus datos y permiteme conocer tu opnion o solicitud de contactarme
+          </p>
+        </div>
+        
 
       </section>
+      
+      <form action="" method="post">        
+
+        <fieldset>
+          <legend>Registra Tus Datos</legend>
+      
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" placeholder="Ingrese aquí su nombre" required> <br>
+      
+          <label for="apellidos">Apellido:</label>
+          <input type="text" name="apellido" id="apellidos" placeholder="Ingrese aquí su apellido" required> <br>
 
       
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" name="telefono" id="telefono" placeholder="Ingrese número de contacto" pattern="[0-9]{10}" maxlength="10" required> <br>
+      
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="Ingrese aquí su email" required> <br>
+      
+          <label for="comentarios">Comentarios:</label> <br>
+          <textarea name="comentarios" id="comentarios" cols="50" rows="1" placeholder="Ingresa aquí tu petición" maxlength="500"></textarea> <br>
+      
+          <br><br>
+
+          <button  type="reset" value="Resetear">Reset</button>
+          <button  type="submit" value="Enviar">Enviar</button>
+          
 
 
+        </fieldset>
+      </form>    
     </main>
 
    
 
     <footer>
-      <h1>reviews From my teachers</h1>
-      <section>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
-          voluptatem perspiciatis repudiandae unde deserunt ea est nostrum.
-          Inventore rerum maxime eligendi rem laudantium praesentium, dolore
-          eveniet ipsa ad voluptatibus repellat?
-        </p>
-      </section>
-      <section>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
-          voluptatem perspiciatis repudiandae unde deserunt ea est nostrum.
-          Inventore rerum maxime eligendi rem laudantium praesentium, dolore
-          eveniet ipsa ad voluptatibus repellat?
-        </p>
-      </section>
-      <section>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
-          voluptatem perspiciatis repudiandae unde deserunt ea est nostrum.
-          Inventore rerum maxime eligendi rem laudantium praesentium, dolore
-          eveniet ipsa ad voluptatibus repellat?
-        </p>
-      </section>
-
-      <span> &copy; all rights reserved 2025</span>
+                
+      <article class="copy"> &copy; all rights reserved 2025
+        <a href="https://github.com/devjohnalex/road-map">Visit rep
+          <img src="/img/github_logo_icon_147285.png" alt="git hub" width="30px">
+        </a>
+      </article>
     </footer>
   </body>
 </html>

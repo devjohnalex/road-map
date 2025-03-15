@@ -9,6 +9,7 @@
     <meta name="author" content="dev.Jahm" />
     <title>Roadmap Front-end junior</title>
     <link rel="shortcut icon" href="/img/User_icon-icons.com_76524.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="/global.css">
     
   </head>
 
@@ -16,32 +17,73 @@
 
     <header>
 
-      <nav>
-        <div><img src="/img/dev_stylus_icon_160851.svg"  alt="logo" width="70px"> </div> <h2>Dev.Jahm</h2>
+      <nav class="cabecero">
+
+        <div class="logo"><img src="/img/logo.png" alt="logo" width="70px">
+          <h2>Dev.Jahm</h2>
+        </div>
+        
+        
         <ul>
-          <li>home</li>
-          <li>Projects</li>
-          <li>Articles</li>
-          <li>Contact</li>
+          <li><a href="roadmap2.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
 
       </nav>
       
-      
+      <article class="titulo">
+        <h1>Front-end Developer Jr.</h1>
+        <p>Html y css con solo propiedades adecuadas</p>
+      </article>
 
-      <h1>Front-end Developer</h1>
-      <p>Html y css con solo propiedades adecuadas</p>
+      
     </header>
 
     <main>
 
-      <h1>Articulos educativos</h1>
+      <h1 class="titulo-art">Articulos educativos</h1>
+      <br>
 
-      <section>
-        <a href="https://code.visualstudio.com/"> <img src="/img/vscode.png" alt="vscode"> more...</a>
-        <a href="https://developer.mozilla.org/es/docs/Web/HTML"> <img src="/img/html.png" alt="HTML"> more...</a>
-        <a href="https://developer.mozilla.org/es/docs/Web/CSS"> <img src="/img/css.png" alt="CSS"> more...</a>
-        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript"> <img src="/img/javascript.png" alt="JavaScript"> more...</a>
+      <section class="main-art">
+
+        <ul>
+          <li>
+            <a href="https://code.visualstudio.com/" target="_blank">
+              <img  class="jpg"src="/img/vscode.png" alt="vscode"> 
+              <p>
+                IDE Integrated Development Environment
+              </p>more...
+            </a>
+          </li>
+
+          <li>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">
+              <img class="jpg" src="/img/html.png" alt="HTML"> 
+              <p>
+                HTML Hyper Text Markup Lenguage
+              </p>
+              more...             
+            </a>
+          </li>
+
+          <li>
+            <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank"> 
+              <img class="jpg" src="/img/css.png" alt="CSS">
+              <p>CSS Cascading Style Sheets                
+              </p>more...
+            </a>
+          </li>
+
+          <li>
+            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" >
+              <img class="jpg" src="/img/javascript.png" alt="JavaScript">
+              <p>JS JavaScript  programing language</p>more...
+            </a>
+          </li>
+
+        </ul>
       </section>
 
       
@@ -49,33 +91,42 @@
     </main>
 
     <footer>
+      <hr>
       <h1>reviews From my teachers</h1>
-      <section>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
-          voluptatem perspiciatis repudiandae unde deserunt ea est nostrum.
-          Inventore rerum maxime eligendi rem laudantium praesentium, dolore
-          eveniet ipsa ad voluptatibus repellat?
-        </p>
-      </section>
-      <section>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
-          voluptatem perspiciatis repudiandae unde deserunt ea est nostrum.
-          Inventore rerum maxime eligendi rem laudantium praesentium, dolore
-          eveniet ipsa ad voluptatibus repellat?
-        </p>
-      </section>
-      <section>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
-          voluptatem perspiciatis repudiandae unde deserunt ea est nostrum.
-          Inventore rerum maxime eligendi rem laudantium praesentium, dolore
-          eveniet ipsa ad voluptatibus repellat?
-        </p>
-      </section>
 
-      <span> &copy; all rights reserved 2025</span>
+      <div class="footer-container">
+        <section class="section-footer">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
+            voluptatem perspiciatis repudiandae unde deserunt ea est nostrum.
+            Inventore rerum maxime eligendi rem laudantium praesentium, dolore
+            eveniet ipsa ad voluptatibus repellat?
+          </p>
+        </section>
+        <section class="section-footer">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
+            voluptatem perspiciatis repudiandae unde deserunt ea est nostrum.
+            Inventore rerum maxime eligendi rem laudantium praesentium, dolore
+            eveniet ipsa ad voluptatibus repellat?
+          </p>
+        </section>
+        <section class="section-footer">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime
+            voluptatem perspiciatis repudiandae unde deserunt ea est nostrum.
+            Inventore rerum maxime eligendi rem laudantium praesentium, dolore
+            eveniet ipsa ad voluptatibus repellat?
+          </p>
+          
+        </section>
+      </div>
+      
+      <article class="copy"> &copy; all rights reserved 2025
+        <a href="https://github.com/devjohnalex/road-map">Visit rep
+          <img src="/img/github_logo_icon_147285.png" alt="git hub" width="30px">
+        </a>
+      </article>
     </footer>
   </body>
 </html>
