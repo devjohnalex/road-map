@@ -16,3 +16,6 @@ https://github.com/devjohnalex/road-map
  ejercicio practico road map 2 basic web tise
 https://roadmap.sh/projects/basic-html-website
 
+ejercicio practico road map2 personal portfolio
+https://roadmap.sh/projects/portfolio-website?fl=0
+
