@@ -127,6 +127,7 @@ footer {
 /* stilos de main pagina principal*/
 
 main {
+    
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -141,7 +142,7 @@ main h1{
 }
 
 aside, section {
-    background: rgba(255, 255, 255, 0.1);
+    background: none;    
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding: 20px;    
@@ -159,13 +160,13 @@ main p{
 }
 
 main a{
-    color: rgb(216, 126, 8);
+    color: whitesmoke;
     font-weight: bold;
     text-decoration: none;       
 }
 
 main a:hover{
-    color: #2b5083;    
+    color: #8a9ebb;    
     transition: all 0.3se ease;
     
 }
@@ -192,11 +193,11 @@ aside a:hover{
     cursor:pointer ;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
-    box-shadow: 0px 8px 25px #0D0D0D;
+    box-shadow: 2px 2px 8px #0D0D0D;
 }
 
 /*stilos main pagina de articles*/
-main .titulo-art{
+.titulo-art{       
     text-align: center;
     font-size: 45px;
     width: 100%;    
@@ -266,3 +267,49 @@ main .titulo-art{
     filter:sepia(0.5);
        
 }
+
+/* section de changelong*/
+
+body{
+    background:linear-gradient(35deg,rgb(106, 31, 177), #00FFFF);
+    width: auto;
+    margin: auto;
+}
+
+.cont-registro{
+    width: 50%;    
+    margin: auto;
+    justify-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;/* Une los bordes de las celdas */    
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+.description{
+    border-left:5px solid rgb(90, 134, 185);    
+}
+
+
+th, td {
+    border: none;       
+    padding: 10px; /* Espaciado interno */
+    text-align: left;    
+    
+   
+}
+
+
+tr:hover {
+    background:linear-gradient(to left, rgba(106, 31, 177, 0.356), #00ffff1c,transparent);
+    
+}
+
