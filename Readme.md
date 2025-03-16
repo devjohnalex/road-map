@@ -19,3 +19,6 @@ https://roadmap.sh/projects/basic-html-website
 ejercicio practico road map2 personal portfolio
 https://roadmap.sh/projects/portfolio-website?fl=0
 
+crear un sitio web que muestre componentes de registro
+https://roadmap.sh/projects/changelog-component
+
